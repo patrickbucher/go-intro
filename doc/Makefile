@@ -1,5 +1,5 @@
 PARAMS=-s -N --toc -V lang=de -V fontsize=11pt -V urlcolor=blue -V linkcolor=blue \
-       -V date="`date +'%d.%m.%Y'`"
+       -V date="`date +'%d.%m.%Y'`" --highlight-style monochrome
 PDF_PARAMS=--pdf-engine=xelatex -V documentclass=scrartcl -V papersize=a4 \
        -V mainfont="Liberation Serif" -V sansfont="Liberation Sans" -V monofont="Liberation Mono" \
 
