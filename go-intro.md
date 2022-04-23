@@ -103,7 +103,7 @@ Zwischenzeit durch neuere Versionen von Go gemildert oder entkräftigt:
 
 - Go 1.11 bringt ein sehr solides Modulsystem mit sich.
 - Go 1.13 erweitert die Fehlerbehandlung um verschiedene nützliche Funktionen.
-- Go 1.18 führt _parametrisierte Polymorphie_ ein (_«Generics»_), die man
+- Go 1.18 führt _parametrisierte Polymorphie_ (_«Generics»_) ein, was man
   bereits seit langem von Programmiersprachen wie Java oder C# kennt.
 
 Im Bereich von Serveranwendungen und besonders von Cloud-Infrastruktur-Software
