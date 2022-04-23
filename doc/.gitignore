@@ -2,3 +2,7 @@
 *.epub
 *.docx
 *.html
+*.man
+*.odt
+*.rtf
+*.txt
