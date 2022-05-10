@@ -20,13 +20,8 @@ Dieses Werk untersteht der [Creative Commons CC BY-SA
 # Über Go
 
 Go ist eine statisch typisierte Programmiersprache, die zur Entwicklung von
-Serveranwendungen geschaffen worden ist. Die Sprache wurde 2007 von [Rob
-Pike](https://de.wikipedia.org/wiki/Rob_Pike)
-([UTF-8](https://de.wikipedia.org/wiki/UTF-8), [Plan
-9](https://de.wikipedia.org/wiki/Plan_9_(Betriebssystem))), [Ken
-Thompson](https://de.wikipedia.org/wiki/Ken_Thompson)
-([Unix](https://de.wikipedia.org/wiki/Unix)) und [Robert
-Griesemer](https://de.wikipedia.org/wiki/Robert_Griesemer) (einem Thurgauer) bei
+Serveranwendungen geschaffen worden ist. Die Sprache wurde 2007 von Rob Pike
+(UTF-8, Plan 9), Ken Thompson (Unix) und Robert Griesemer (einem Thurgauer) bei
 Google entwickelt. Die erste stabile Version, Go 1.0, erschien 2009.
 
 ## Sprachkonzepte
