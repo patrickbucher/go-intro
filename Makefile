@@ -1,7 +1,7 @@
 PARAMS=-s -N --toc -V lang=de -V fontsize=12pt -V urlcolor=blue -V linkcolor=blue \
        -V date="`date +'%d.%m.%Y'`" --highlight-style monochrome
 PDF_PARAMS=--pdf-engine=xelatex -V documentclass=scrartcl -V papersize=a4 \
-	   -V mainfont="Crimson" -V sansfont="Lato" -V monofont="Inconsolata" \
+	   -V mainfont="Crimson Pro" -V sansfont="Lato" -V monofont="Inconsolata" \
 
 .PHONY: all clean
 
