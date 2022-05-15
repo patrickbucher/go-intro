@@ -112,8 +112,9 @@ Prometheus, Grafana, Gitea usw. sind grösstenteils in Go geschrieben.
 
 # Hallo, Welt!
 
-Der Tradition, beim Lernen einer neuen Programmiersprache das _Hallo,
-Welt!_-Programm zu schreiben, soll hier gefolgt werden (`hello_world.go`):
+Beim Erlernen einer neuen Programmiersprache fängt man traditionellerweise mit
+dem sogenannten _Hallo, Welt_-Programm an. Dieser Tradition soll hier gefolgt
+werden (`hello_world.go`):
 
 ```go
 package main
@@ -129,7 +130,7 @@ Das Programm kann mithilfe des `go`-Befehls ausgeführt werden:
 
     go run hello_world.go
 
-Was folgende Ausgabe erzeugen sollte:
+Die sollte die folgende Ausgabe erzeugen:
 
     Hello, World!
 
@@ -142,3 +143,26 @@ aus gestartet werden:
 Wobei wieder die folgende Ausgabe erscheinen sollte:
 
     Hello, World!
+
+Auch wenn dieses Programm nicht viel macht, enthält das Programm doch recht
+viele verschiedene Bestandteile. Diese sollen Zeile für Zeile durchgegangen
+werden:
+
+- **`package main`**: Auf der ersten Zeile wird definiert, um welches Package es
+  sich handelt. Das Package mit dem Namen `main` bezeichnet ein ausführbares
+  Programm.
+- **`import "fmt"`**: Diese Zeile importiert ein Modul namens `fmt`
+  (ausgesprochen als "fomt"), welches für die formatierte Ausgabe von Text
+  verwendet wird.
+- **`func main() {`**: Das `func`-Schlüsselwort definiert eine Funktion. Diese
+  hat den Namen `main`. Die Funktion mit dem Namen `main` ist der
+  Haupteinstiegspunkt in das Programm. Diese Zeile bezeichnet man als den
+  _Funktionskopf_. Am Ende der Zeile wird mit der öffnenden geschweiften Klammer
+  der Beginn des _Funktionsrumpfs_ bezeichnet. In Go muss die öffnende Klammer
+  für einen Block _auf der gleichen Zeile_ wie der Kopf der Funktion stehen.
+- **`fmt.Println("Hello, World!")`**: Die `Println`-Funktion des `fmt`-Moduls
+  wird aufgerufen. Es wird ein String-Parameter mit dem Wert `"Hello, World!"`
+  übergeben. Am Ende der Zeile wird _kein_ Semikolon (`;`) benötigt. Diese eine
+  Zeile macht den gesamten Funktionsrumpf von `main` aus.
+- **`}`**: Der Funktionsrumpf wird mit einer schliessenden geschweiften Klammer
+  geschlossen; die Funktion ist hier zu Ende.
