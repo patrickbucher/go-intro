@@ -20,9 +20,9 @@ Dieses Werk untersteht der [Creative Commons CC BY-SA
 # Über Go
 
 Go ist eine statisch typisierte Programmiersprache, die zur Entwicklung von
-Serveranwendungen geschaffen worden ist. Die Sprache wurde 2007 von Robert
-Griesemer, Rob Pike und Ken Thompson (dem Schöpfer des Betriebssystems Unix)
-bei Google entwickelt. Die erste stabile Version, Go 1.0, erschien 2009.
+Serveranwendungen geschaffen worden ist. Die Sprache wurde 2007 von Rob Pike
+(UTF-8, Plan 9), Ken Thompson (Unix) und Robert Griesemer (einem Thurgauer) bei
+Google entwickelt. Die erste stabile Version, Go 1.0, erschien 2009.
 
 ## Sprachkonzepte
 
@@ -60,7 +60,7 @@ Weitere Eigenschaften ‒ und damit einhergehende Vorteile ‒ von Go sind:
   ohne weitere Abhängigkeiten direkt ausführbar.
 - Erweiterungen an der Programmiersprache werden nur sehr selten vorgenommen.
   Dabei wird sichergestellt, dass bestehender Go-Programmcode immer mit neueren
-  Versionen von Go kompilierbar sind.
+  Versionen von Go kompilierbar ist.
 - Das integrierte Werkzeug `go` bietet u.a. Möglichkeiten zum Ausführen,
   Kompilieren und Testen von Programmen, sowie zur Anzeige von Dokumentation und
   zur Verwaltung von Modulen.
@@ -87,7 +87,7 @@ Go wird v.a. aus folgenden Gründen oft kritisiert:
   oder `undefined` in JavaScript), der eine häufige Fehlerquelle ist.
 - Programme können in Go nur statisch kompiliert werden und werden darum recht
   gross; von ca. 1 MB für ein _Hallo, Welt_-Programm bis zu über 100 MB für
-  Infrastrukturanwendungen wie Kubernetes.
+  Infrastrukturanwendungen wie Kubernetes oder Gitea.
 - Die Ausführungsgeschwindigkeit von Go-Programmen ist aufgrund des Garbage
   Collectors nicht so hoch wie diejenige von vergleichbaren Programmen, die in
   C, C++ oder Rust geschrieben worden sind.
@@ -108,7 +108,7 @@ Zwischenzeit durch neuere Versionen von Go gemildert oder entkräftigt:
 
 Im Bereich von Serveranwendungen und besonders von Cloud-Infrastruktur-Software
 erfreut sich Go höchster Beliebtheit. Software wie Kubernetes, Docker, InfluxDB,
-Prometheus, Grafana usw. sind grösstenteils in Go geschrieben.
+Prometheus, Grafana, Gitea usw. sind grösstenteils in Go geschrieben.
 
 # Hallo, Welt!
 
